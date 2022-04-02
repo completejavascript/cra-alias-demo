@@ -1,5 +1,5 @@
-import Header from "modules/Header";
-import "App.css";
+import Header from "./modules/Header";
+import "./App.css";
 
 function App() {
   return (

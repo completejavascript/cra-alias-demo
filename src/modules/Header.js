@@ -1,5 +1,5 @@
-import logo from "images/logo.svg";
-import ExternalLink from "components/ExternalLink";
+import logo from "../images/logo.svg";
+import ExternalLink from "../components/ExternalLink";
 
 export default function Header() {
   return (
