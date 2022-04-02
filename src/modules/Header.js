@@ -1,4 +1,5 @@
 import logo from "images/logo.svg";
+import ExternalLink from "components/ExternalLink";
 
 export default function Header() {
   return (
@@ -7,14 +8,9 @@ export default function Header() {
       <p>
         Edit <code>src/App.js</code> and save to reload.
       </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <ExternalLink className="App-link" href="https://reactjs.org">
         Learn React
-      </a>
+      </ExternalLink>
     </header>
   );
 }
